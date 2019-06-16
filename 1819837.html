@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="1819837.css" type="text/css" />
+</head>
+<body>
+        <div id="struture">
+                <div id="navigate">GiggleGreen's Music Player</div>
+                <div id="content">
+                    Now playing
+                    <div class="music">
+                        <h3 id="musicName">Depeche Mode - Heaven (Freemasons Mix)</h3>
+                        <img src="art/Depeche Mode - Heaven (Freemasons Mix).jpg" id="musicImg"><br>
+                        <audio src="music/Depeche Mode - Heaven (Freemasons Mix).mp3"  id="audio"></audio>
+                        
+                        <div class="progress">
+                       
+                                <span class="start_time" id="start_time">00:00</span>
+                                <div class="load" id="load">
+                                    <div class="circle" id="circle">
+                                        <div class="round" id="round">
+                 
+                                        </div>
+                 
+                                    </div>
+                        
+                                </div>
+                                <span class="total_time" id="total_time">00:00</span>
+                               
+                            </div>
+                            <br>
+                            <form>
+                                    
+                                    <input type="button" name="Previous Song" id="prev" value="Previous Song" class="btn">
+                                    <input type="button" name="Next Song" id="next" value="Next Song" class="btn"> 
+                                   
+                            </form>
+
+                            <button id="play" class="btnTotal">play</button>
+                            <button id="pause" class="btnTotal">pause</button>
+                           <button id="mute" class="btnTotal">Mute/Unmute</button>
+                           <button id="volumeA" class="btnTotal">Vol+</button>
+                           <button id="volumeR" class="btnTotal">Vol-</button>
+                           <br>
+                           <button id="randomplay" class="btnTotal2">Shuffle Play</button>
+                           <button id="loop" class="btnTotal2">Loop Play</button>
+                           <button id="playall" class="btnTotal2">Play All</button>
+                            
+                    </div>
+                </div>
+                <div id="topright">
+                    <h2>Music List</h2>
+                    <br>
+                    <br>
+                        <div class="music_list">
+                                <ul id="ul">
+                                    <li>Depeche Mode - Heaven (Freemasons Mix).mp3</li>
+                                    <li>Goldfrapp - Fly Me Away.mp3</li>
+                                    <li>Goldfrapp - Number 1.mp3</li>
+                                    <li>Hurts - Wonderful Life (Freemasons Mix).mp3</li>
+                                    <li>The Cranberries - I Cant Be With You.mp3</li>
+                                </ul>
+                        </div>
+                    </div>
+<script type="text/javascript" src="1819837.js"></script>
+
+</body>
+</html>
